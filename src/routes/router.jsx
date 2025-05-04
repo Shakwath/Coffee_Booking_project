@@ -14,6 +14,7 @@ const router = createBrowserRouter([
         {
           path: "/",
           element: <Home></Home>,
+          loader : ()=> fetch ('../assets/categories.json'),
          },
        {
         path: "/Coffee",
