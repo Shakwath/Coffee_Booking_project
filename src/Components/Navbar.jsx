@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 const Navbar = () => {
   return (
@@ -37,6 +37,8 @@ const Navbar = () => {
           <li><Link to='/coffee'>Coffee</Link></li>
           <li><Link to='/Dashboard'>Dashboard</Link></li>
           <li><Link to='/Contect'>Contect</Link></li>
+          <li><NavLink to='/login'>Login</NavLink></li>
+          <li><NavLink to='/register'>Register</NavLink></li>
         </ul>
       </div>
     </div>

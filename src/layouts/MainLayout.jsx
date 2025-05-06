@@ -5,7 +5,7 @@ import { Outlet } from 'react-router-dom';
 
 const MainLayout = () => {
     return (
-        <div>
+        <div className='mx-w-4xl mx-auto'>
             {/* Navbar */}
             <Navbar></Navbar>
             <div className='min-h-[calc(100vh-232px)] py-12'>

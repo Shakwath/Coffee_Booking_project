@@ -1,11 +1,11 @@
 import React from 'react';
 
-const Categories = () => {
+const Register = () => {
     return (
         <div>
-            
+            <h2>register</h2>
         </div>
     );
 };
 
-export default Categories;
+export default Register;

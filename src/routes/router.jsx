@@ -5,6 +5,8 @@ import Coffee from '../Pages/Coffee';
 import Dashboard from '../Pages/Dashboard';
 import Contect from '../Pages/Contect';
 import Home from '../Pages/Home';
+import Login from '../Components/Login/Login';
+import Register from '../Components/Register/Register';
 
 const router = createBrowserRouter([
     {
@@ -28,6 +30,14 @@ const router = createBrowserRouter([
         path: "/Contect",
         element: <Contect></Contect>
         },
+        {
+          path:"/login",
+          element:<Login></Login>
+        },
+        {
+          path:"/register",
+          element:<Register></Register>
+        }
       ],
     },
 ]);
